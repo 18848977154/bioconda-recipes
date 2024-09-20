@@ -1,5 +1,5 @@
 {% set version = "2.13.2" %}
-{% set sha256 = "da2b1d2a816c3b647c684fd389f941463e5c37bd502fc7cb650f8db8e2458232" %}
+{% set sha256 = "0ecb4322172533e591dc3543c139b6c0aa0888099561f71b984c1861d32fcd38" %}
 
 package:
   name: bioconda-utils
@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: python -m pip install --no-deps --ignore-installed .
   entry_points:
     - bioconda-utils = bioconda_utils.cli:main
