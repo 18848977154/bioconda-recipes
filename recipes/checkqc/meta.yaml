@@ -10,7 +10,7 @@ source:
   sha256: 03bc01d96d45c4c1a0e07d410a6f3ec74c0fab0f7125434ca3d983e70d4d568a
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - checkqc = checkQC.app:start
