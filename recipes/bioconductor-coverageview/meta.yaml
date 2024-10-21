@@ -27,7 +27,7 @@ requirements:
     - 'bioconductor-rsamtools >=2.18.0,<2.19.0'
     - 'bioconductor-rtracklayer >=1.62.0,<1.63.0'
     - 'bioconductor-s4vectors >=0.40.0,<0.41.0'
-    - r-base >=3.6.3
+    - r-base
   run:
     - 'bioconductor-genomicalignments >=1.38.0,<1.39.0'
     - 'bioconductor-genomicranges >=1.54.0,<1.55.0'
@@ -35,7 +35,7 @@ requirements:
     - 'bioconductor-rsamtools >=2.18.0,<2.19.0'
     - 'bioconductor-rtracklayer >=1.62.0,<1.63.0'
     - 'bioconductor-s4vectors >=0.40.0,<0.41.0'
-    - r-base >=3.6.3
+    - r-base
 test:
   commands:
     - '$R -e "library(''{{ name }}'')"'
